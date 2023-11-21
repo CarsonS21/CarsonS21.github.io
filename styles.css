@@ -1,26 +1,41 @@
-body{
-    background-color: grey;
+body {
+    background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
-}
-h1{
-    color: black;
-    text-align: center;
-}
-.assign{
     display: flex;
+    flex-wrap: wrap;
+   }
+   h1 {
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    display: block;
+   }
+   h1:hover {
+    color: hotpink;
+    text-align: center;
+    width: 100%;
+    display: block;
+   }
+   a {
+    text-decoration: none;
+    color: black;
+   }
+   .assign {
+    background-color: tan;
     margin: 10px;
     padding: 10px;
-    background: tan;
-}
-.assign img{
-    width: 200px;
-    padding: 10px;
-}
-a {
-    text-decoration: none; /* remove underlining on anchor tags */
-    color: midnightblue; /* pick the color you want */
+    border-radius: 20px;
+    width: 20%;
+    box-shadow: 8px 8px black;
+    display: block; /* instead of flex */
    }
    .assign img {
-    padding: 10px; /* change this from margin to padding */
-    border: 2px solid midnightblue; /* try dashed, dotted */
+    width: 200px;
+    margin: 10px;
+    border: 2px solid midnightblue;
+   }
+   .assign img:hover {
+    width: 200px;
+    margin: 10px;
+    border: 2px dotted brown;
    }
