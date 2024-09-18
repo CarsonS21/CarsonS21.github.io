@@ -39,3 +39,7 @@ body {
     margin: 10px;
     border: 2px dotted brown;
    }
+   .blue-underline {
+    color: blue;
+    text-decoration: underline;
+  }
